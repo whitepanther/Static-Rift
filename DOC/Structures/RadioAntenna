@@ -1,0 +1,27 @@
+Radio Antenna
+-multiblock structure
+-requires 1 redstone torch
+-1 Iron block
+-Number of iron bar (taller the tower the greater the range)
+-1 Radio Receiver  *New*
+
+ i
+[ ]
+| |
+| |
+| | [x]
+
+-GUI
+-AM/FM switch (public/private frequency)
+-Frequency slider
+-Lock light 
+-Crystal slot holds
+
+-Energy crystal for transfer from tower to tower
+   -Clarity descreses loss / storage size
+   -Refractivity increase transfer rate
+-Gather energy from static slowly 
+   -Clarity increases packet size /storage size
+   -Refractivity increases amount of packets 
+-Item crystal 
+-liquid crystal
