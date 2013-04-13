@@ -1,0 +1,18 @@
+Metalworking Table
+-allows for the creation of many "Metal" parts
+
+Crafting Recipe
+
+OOO   Obsidian       =O     Furnace  =F
+CWC  CobbleStone =C
+CFC   Workbench   =W
+
+Metalworking Table
+Recipes
+-9 "metal" leaves -> 1 "metal" sheet
+-9 "metal" sheets -> 1 "metal" ingot
+-1 "metal" nugget -> 9 "metal" leaves
+
+-3 "metal" sheets -> 1 "metal" rod
+-3 "metal" rods     -> 3 "metal" tubes
+ 
