@@ -1,10 +1,12 @@
 package com.whitepanther.SRift;
 
-
+import com.whitepanther.SRift.core.proxy.CommonProxy;
 import com.whitepanther.SRift.lib.Reference;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
@@ -18,12 +20,19 @@ import cpw.mods.fml.common.network.NetworkMod;
 
 public class StaticRift
 {
-
+    
+    @Instance(Reference.MOD_ID)
+    public static StaticRift instance;
+    
+    
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    public static CommonProxy proxy; 
+    
     
     @Init
     public void load(FMLInitializationEvent event)
     {
-        
+        proxy.registerRenderers();
     }
     
 }
