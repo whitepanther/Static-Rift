@@ -1,4 +1,4 @@
-package com.whitepanther.SRift.core.proxy;
+package whitepanther.SRift.core.proxy;
 
 import net.minecraftforge.client.MinecraftForgeClient;
 

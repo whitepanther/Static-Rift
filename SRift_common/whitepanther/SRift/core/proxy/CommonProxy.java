@@ -1,4 +1,4 @@
-package com.whitepanther.SRift.core.proxy;
+package whitepanther.SRift.core.proxy;
 
 public class CommonProxy
 {

@@ -1,7 +1,7 @@
-package com.whitepanther.SRift;
+package whitepanther.SRift;
 
-import com.whitepanther.SRift.core.proxy.CommonProxy;
-import com.whitepanther.SRift.lib.Reference;
+import whitepanther.SRift.core.proxy.CommonProxy;
+import whitepanther.SRift.lib.Reference;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Init;

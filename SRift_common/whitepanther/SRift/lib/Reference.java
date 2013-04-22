@@ -1,4 +1,4 @@
-package com.whitepanther.SRift.lib; 
+package whitepanther.SRift.lib; 
 
 public class Reference
 {
