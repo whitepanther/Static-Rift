@@ -1,0 +1,20 @@
+[
+{
+  "modid": "SRift",
+  "name": "Static Rift",
+  "description": "Description goes here ",
+  "version": "0.0.0",
+  "url": "URL here",
+  "updateUrl": "",
+  "authorList": [
+    "whitepanther"
+     ],
+  "credits": "By whitepanther",
+  "logoFile": "",
+  "screenshots":  [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]
